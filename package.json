@@ -1,0 +1,35 @@
+{
+  "name": "frames-vercel",
+  "version": "1.0.0",
+  "description": "Farcaster Frames API with Vercel deployment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for serverless functions'",
+    "deploy": "vercel --prod",
+    "test": "echo 'Tests will be added later'"
+  },
+  "keywords": [
+    "farcaster",
+    "frames",
+    "vercel",
+    "api",
+    "nft",
+    "web3"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/frames-vercel.git"
+  }
+}
